@@ -157,3 +157,22 @@ textarea#message-preview {
     background-color: var(--color-reset);
     color: white;
 }
+
+/* --- NEU: Home-Button Style --- */
+.btn-home {
+    display: inline-block;
+    background-color: var(--color-card);
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    transition: background-color 0.2s, color 0.2s;
+}
+.btn-home:hover {
+    background-color: var(--color-primary);
+    color: var(--color-text-dark);
+}
