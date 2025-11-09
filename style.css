@@ -176,3 +176,27 @@ textarea#message-preview {
     background-color: var(--color-primary);
     color: var(--color-text-dark);
 }
+
+/* --- NEU: Live-Suchergebnisse --- */
+#search-results {
+    background-color: var(--color-card);
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-top: 5px;
+    max-height: 200px; /* Höhe begrenzen, falls viele Ergebnisse */
+    overflow-y: auto; /* Scrollbar, wenn nötig */
+}
+
+.result-item {
+    padding: 12px 15px;
+    color: var(--color-text-light);
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+}
+.result-item:last-child {
+    border-bottom: none;
+}
+.result-item:hover {
+    background-color: var(--color-primary);
+    color: var(--color-text-dark);
+}
