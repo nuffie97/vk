@@ -8,8 +8,9 @@
 </head>
 <body>
     <div class="container">
-        <a href="/" class="btn-home">« Zurück zur App-Übersicht</a>
         
+        <a href="/" class="btn-home">« Zurück zur App-Übersicht</a>
+
         <h1>VK Listen-Builder</h1>
 
         <div id="loading-status" class="loading">
@@ -19,12 +20,13 @@
         <section id="input-section" class="section" style="display: none;">
             <h2>Item hinzufügen</h2>
             <div class="input-group">
-                <input type="text" id="smart-input" list="item-list" placeholder="z.B. Volt Prime 150">
-                <datalist id="item-list">
-                    </datalist>
+                <input type="text" id="smart-input" placeholder="z.B. Volt Prime 150" autocomplete="off">
                 <button id="add-item-btn" class="btn btn-add">+</button>
             </div>
-        </section>
+            
+            <div id="search-results"></div>
+
+            </section>
 
         <section class="section">
             <h2>Aktuelle Liste</h2>
